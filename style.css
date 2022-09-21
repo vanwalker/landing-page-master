@@ -1,0 +1,83 @@
+/* Write some CSS below */
+html, body{
+	font-family: overpass;
+	margin: 0px;
+}
+
+.banner {
+	padding: 150px 0;
+	text-align: center;
+	background-image: url(images/background.jpg);
+	background-position: center;
+}
+
+.banner h1 {
+	font-size: 44px;
+	color: white;
+	font-family: chivo;
+}
+
+.banner h3 {
+	font-size: 22px;
+	color: grey;
+}
+
+.banner a {
+	padding: 18px 35px;
+	border-radius: 5px;
+	text-decoration: none;
+	color: white;
+	font-weight: bolder;
+	background-color: #1A48E3;
+}
+
+.cards-container{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 15px;
+}
+
+.container{
+	width: 800px;
+	margin: auto;
+	padding: 50px 0px;
+}
+.card{
+	background-color: beige;
+	padding: 15px;
+	box-shadow: 5px 8px 10px darkgrey;
+}
+
+.card img{
+	object-fit: center;
+	width: 100%;
+	border-radius: 3px;
+}
+
+.footer p{
+	text-align: center;
+}
+
+.footer {
+	padding: 80px 0;
+	background-color: grey;
+}
+
+
+#app{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
